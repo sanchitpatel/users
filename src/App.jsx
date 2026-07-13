@@ -9,6 +9,8 @@ import BookingModal from './components/BookingModal';
 import Footer from './components/Footer';
 import ScrollVideoDemo from './components/ScrollVideoDemo';
 import Lenis from 'lenis';
+import { useTenant } from './context/TenantContext';
+import NotFoundPage from './components/NotFoundPage';
 
 export default function App() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -70,6 +72,13 @@ export default function App() {
       window.scrollTo({ top: 5 * window.innerHeight, behavior: 'smooth' });
     }
   };
+
+  const tenant = useTenant();
+
+  // If no tenant is matched (unauthorized subdomain or main domain), show the 404 page
+  if (!tenant) {
+    return <NotFoundPage />;
+  }
 
   // Check if we're on the demo page
   const isDemo = window.location.pathname === '/demo' || window.location.search.includes('demo');

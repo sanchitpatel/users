@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useTenant } from '../context/TenantContext';
 
 export default function BookingModal({ isOpen, onClose }) {
+  const tenant = useTenant();
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -24,15 +26,15 @@ export default function BookingModal({ isOpen, onClose }) {
     e.preventDefault();
     
     // Format the WhatsApp message text
-    const textMessage = `Hello Applifix! I'd like to book a repair:
+    const textMessage = `Hello ${tenant.brandName}! I'd like to book a repair:
 *Name:* ${formData.name}
 *Phone:* ${formData.phone}
 *Device:* ${formData.device}
 *Service:* ${formData.service}
-*Repair Type:* ${formData.repairType === 'walk-in' ? 'Walk-in (Patiala Center)' : 'Mail-in (Courier)'}`;
+*Repair Type:* ${formData.repairType === 'walk-in' ? `Walk-in (${tenant.walkInLocationName})` : 'Mail-in (Courier)'}`;
 
     const encodedText = encodeURIComponent(textMessage);
-    const whatsappUrl = `https://wa.me/917986863776?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/${tenant.whatsapp}?text=${encodedText}`;
     
     // Open in a new tab
     window.open(whatsappUrl, '_blank');
@@ -132,7 +134,7 @@ export default function BookingModal({ isOpen, onClose }) {
                   onChange={() => {}}
                 />
                 <span className="radio-card-title">Walk-In Repair</span>
-                <span className="radio-card-desc">Visit our Patiala Service Centre</span>
+                <span className="radio-card-desc">Visit our {tenant.city} Service Centre</span>
               </div>
 
               <div 

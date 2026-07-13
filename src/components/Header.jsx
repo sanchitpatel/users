@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTenant } from '../context/TenantContext';
 
 export default function Header({ onOpenBooking }) {
+  const tenant = useTenant();
+
   return (
     <header className="site-header fixed top-4 sm:top-6 left-1/2 -translate-x-1/2 z-[100] w-[92%] sm:w-[85%] max-w-[600px] bg-white/40 backdrop-blur-xl rounded-full border border-slate-300/50 px-3 pt-1.5 pb-1 sm:px-4 sm:py-2 flex items-center justify-between shadow-[0_8px_32px_rgba(0,0,0,0.03)] select-none">
 
@@ -9,15 +12,16 @@ export default function Header({ onOpenBooking }) {
       <div className="flex items-center gap-2 sm:gap-2.5">
         <div className="bg-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shadow-xl shrink-0 overflow-hidden">
           <img
-            src="/Gemini_Generated_Image_djkdejdjkdejdjkd.png"
-            alt="APPLIFIX Logo"
+            src={tenant.logoUrl}
+            alt={`${tenant.brandName} Logo`}
             className="w-full h-full object-cover"
           />
         </div>
         <span className="text-slate-800 font-extrabold text-base sm:text-xl tracking-tight select-none">
-          APPLIFIX<span className="text-blue-500 text-base sm:text-lg">.</span>
+          {tenant.brandName}<span className="text-blue-500 text-base sm:text-lg">.</span>
         </span>
       </div>
+
 
       {/* Middle: Navigation Links */}
       <nav className="flex items-center gap-4 sm:gap-6 md:gap-8">

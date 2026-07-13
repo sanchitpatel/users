@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import RotatingMockup from './RotatingMockup';
+import { useTenant } from '../context/TenantContext';
 
 export default function Hero({ onOpenBooking }) {
+  const tenant = useTenant();
+
   return (
     <section className="hero-section">
       <div className="hero-content z-10">
@@ -13,15 +16,16 @@ export default function Hero({ onOpenBooking }) {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-600 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
           </span>
-          SAME-DAY REPAIR AVAILABLE
+          {tenant.sameDayAvailable ? 'SAME-DAY REPAIR AVAILABLE' : 'EXPERT REPAIR SERVICE'}
         </div>
 
         {/* Title with text gradient */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter leading-[1.2] sm:leading-[1.15] md:leading-[1.1]">
           <span className="text-gradient">
-            Premium Apple Device Repair in Punjab.
+            Premium Apple Device Repair in {tenant.city}.
           </span>
         </h1>
+
 
         {/* Subtitle */}
         <p className="text-sm sm:text-base md:text-lg font-semibold text-slate-700 max-w-md leading-relaxed">

@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react';
+import { useTenant } from '../context/TenantContext';
 
 export default function BeforeAfterSlider() {
+  const tenant = useTenant();
   const [sliderPos, setSliderPos] = useState(50); // percentage (0 to 100)
   const containerRef = useRef(null);
 
@@ -60,7 +62,7 @@ export default function BeforeAfterSlider() {
       <text x="78" y="176" fontFamily="var(--font-sans)" fontSize="9" fontWeight="600" fill="#ffffff" fillOpacity="0.7" textAnchor="middle">Battery: 98%</text>
 
       <rect x="143" y="150" width="90" height="45" rx="10" fill="#ffffff" fillOpacity="0.07" stroke="#ffffff" strokeOpacity="0.1" />
-      <text x="188" y="176" fontFamily="var(--font-sans)" fontSize="9" fontWeight="600" fill="#ffffff" fillOpacity="0.7" textAnchor="middle">Patiala: 32°C</text>
+      <text x="188" y="176" fontFamily="var(--font-sans)" fontSize="9" fontWeight="600" fill="#ffffff" fillOpacity="0.7" textAnchor="middle">{tenant.city}: 32°C</text>
 
       {/* Dock Area at bottom */}
       <rect x="20" y="495" width="226" height="50" rx="20" fill="#ffffff" fillOpacity="0.08" stroke="#ffffff" strokeOpacity="0.05" />
