@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import FeaturedServices from './components/FeaturedServices';
 import VideoPlayer from './components/VideoPlayer';
+import MapLocation from './components/MapLocation';
 import TrustReviews from './components/TrustReviews';
 import BookingModal from './components/BookingModal';
 import Footer from './components/Footer';
@@ -109,6 +110,10 @@ export default function App() {
 
         {/* Action, Services, and Reviews */}
         <div className="left-column" style={{ marginTop: 0 }}>
+          {/* Map Location Section */}
+          <MapLocation onOpenBooking={openBooking} />
+          <div className="section-divider"></div>
+
           {tenant.videos && tenant.videos.length > 0 && (
             <>
               <VideoPlayer />
