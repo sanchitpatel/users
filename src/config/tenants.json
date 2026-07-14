@@ -17,7 +17,33 @@
     "mapsUrl": "https://maps.app.goo.gl/XkY8XTRTByUvjmwR9",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": [
+      {
+        "id": "_rdkox1JWbg",
+        "title": "iPhone Screen Glass Replacement"
+      },
+      {
+        "id": "wx0NVEfHDRA",
+        "title": "Premium Display Restoration"
+      },
+      {
+        "id": "qpV_DXL28pY",
+        "title": "Surgical Motherboard Microsoldering"
+      },
+      {
+        "id": "Q_7SKGRcJO4",
+        "title": "iPad Touch Screen Refurbishment"
+      },
+      {
+        "id": "NZIEmMKH9pk",
+        "title": "Apple Watch Glass Restoration"
+      },
+      {
+        "id": "J5pLTPYbXbM",
+        "title": "iPhone Battery Swap & Diagnostic"
+      }
+    ]
   },
   {
     "id": "mtrmobilem9q4",
@@ -37,7 +63,33 @@
     "mapsUrl": "",
     "walkInLocationName": "Uttarakhand Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": [
+      {
+        "id": "4NaAfHP63yA",
+        "title": "iPhone Broken Screen Restoration"
+      },
+      {
+        "id": "XfX_5gcoN_U",
+        "title": "Apple iPad Glass Refurbishing"
+      },
+      {
+        "id": "ZeEgojTA57s",
+        "title": "Watch Series Repair & Touch Fix"
+      },
+      {
+        "id": "FQq_LMO-FNA",
+        "title": "Motherboard Microsoldering Service"
+      },
+      {
+        "id": "jDcjpGkqmBI",
+        "title": "High-Quality Back Glass Repair"
+      },
+      {
+        "id": "-fHXif1090A",
+        "title": "Speaker & Battery Replacements"
+      }
+    ]
   },
   {
     "id": "bunnypratapt3x8",
@@ -57,7 +109,33 @@
     "mapsUrl": "",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": [
+      {
+        "id": "YhwsUUDz9eo",
+        "title": "iPhone 15 Pro Max Restoration"
+      },
+      {
+        "id": "SE6y-5IxCkQ",
+        "title": "Premium Display Glass Repair"
+      },
+      {
+        "id": "BgCFXnOHJEQ",
+        "title": "iPad Screen & Digitizer Rebuild"
+      },
+      {
+        "id": "wySl27uXNPQ",
+        "title": "Apple Watch Screen Overlay Fix"
+      },
+      {
+        "id": "JBWBNgf-MFs",
+        "title": "Microsoldering IC Repair Process"
+      },
+      {
+        "id": "rz2F5H1Cb_c",
+        "title": "Water Damage Diagnostic & Cleanup"
+      }
+    ]
   },
   {
     "id": "hussainfixr6p1",
@@ -77,7 +155,33 @@
     "mapsUrl": "",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": [
+      {
+        "id": "KUjXNbb84W0",
+        "title": "iPhone Screen Refurbishing Process"
+      },
+      {
+        "id": "scp0Silyork",
+        "title": "Apple Watch Re-Glass Demonstration"
+      },
+      {
+        "id": "COlsGDWfVPI",
+        "title": "iPad Digitizer & Glass Restoration"
+      },
+      {
+        "id": "pKfaEnEAuok",
+        "title": "Logic Board Microsoldering IC Fix"
+      },
+      {
+        "id": "sB0wG1OjFw0",
+        "title": "Back Glass Laser Separation Repair"
+      },
+      {
+        "id": "kTfzMIS-pV4",
+        "title": "Battery Health Replacement Service"
+      }
+    ]
   },
   {
     "id": "mobileguruh5z9",
@@ -97,7 +201,33 @@
     "mapsUrl": "",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": [
+      {
+        "id": "ePGWg4k0vac",
+        "title": "Premium Display Restoration Process"
+      },
+      {
+        "id": "LOsstnyVl-Q",
+        "title": "Apple Watch Series Touch Refurbish"
+      },
+      {
+        "id": "QjMEYOSTnAw",
+        "title": "iPad Pro Screen Panel Repair"
+      },
+      {
+        "id": "DqwYtdY5DhU",
+        "title": "Micro-Soldering Logic Board Fix"
+      },
+      {
+        "id": "GqJs6vh-9xk",
+        "title": "Rear Glass Damage Repair Showcase"
+      },
+      {
+        "id": "eewjl4t8j4w",
+        "title": "Same-Day Battery Diagnostic Swap"
+      }
+    ]
   },
   {
     "id": "applefixq7j2",
@@ -117,7 +247,8 @@
     "mapsUrl": "https://maps.app.goo.gl/iQWExjpunwjgZKuSA",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "igadgetsb8n3",
@@ -137,7 +268,8 @@
     "mapsUrl": "https://maps.app.goo.gl/yquhX73Rg21uRFFK7",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "istorey2l7",
@@ -157,7 +289,8 @@
     "mapsUrl": "https://maps.app.goo.gl/WKYrzWZg6REjLsoi9",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "icarec4w6",
@@ -177,7 +310,8 @@
     "mapsUrl": "https://maps.app.goo.gl/Sh8rYvGTSxarVMYT9",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "apcarej1f8",
@@ -197,7 +331,8 @@
     "mapsUrl": "https://maps.app.goo.gl/AgoLJGwkZYQQoJhV6",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "imasterhydv9d5",
@@ -217,7 +352,8 @@
     "mapsUrl": "https://maps.app.goo.gl/UihgHfUfqcYRfWg97",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "gadgetprok7r3",
@@ -237,7 +373,8 @@
     "mapsUrl": "https://maps.app.goo.gl/iPRQdWsERy53ekUQ6",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "itechp2h6",
@@ -257,7 +394,8 @@
     "mapsUrl": "https://maps.app.goo.gl/G6cTkxrS8NycFkB39",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "iphonecarrierx8m1",
@@ -277,7 +415,8 @@
     "mapsUrl": "https://maps.app.goo.gl/7FyJWP97zkEccDM57",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "tmobilel5t4",
@@ -297,7 +436,8 @@
     "mapsUrl": "https://maps.app.goo.gl/eEHifSLngEn3Sn9z7",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "ismartserviceq9b7",
@@ -317,7 +457,8 @@
     "mapsUrl": "https://maps.app.goo.gl/YotmZ2JMjL1CcpiGA",
     "walkInLocationName": "Hyderabad Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "iphonerepairn3y8",
@@ -337,7 +478,8 @@
     "mapsUrl": "https://maps.app.goo.gl/SQWGGnfA6FpoDeXa8",
     "walkInLocationName": "Bengaluru Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "redappleg6c2",
@@ -357,7 +499,8 @@
     "mapsUrl": "https://maps.app.goo.gl/tkDvbqRw6u6qQWbX9",
     "walkInLocationName": "Bengaluru Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "repairhubf1v9",
@@ -377,7 +520,8 @@
     "mapsUrl": "https://maps.app.goo.gl/jinzi6NnqRRsMwyQ9",
     "walkInLocationName": "Mumbai Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "idevicez4j5",
@@ -397,7 +541,8 @@
     "mapsUrl": "https://maps.app.goo.gl/nPL77AroJnCdQnes5",
     "walkInLocationName": "Mumbai Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "iserviced8k7",
@@ -417,7 +562,8 @@
     "mapsUrl": "https://maps.app.goo.gl/EczgPprFGHURDGuc7",
     "walkInLocationName": "Mumbai Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "repairiphoneu2p3",
@@ -437,7 +583,8 @@
     "mapsUrl": "https://maps.app.goo.gl/itAsdgxBVBpK7er16",
     "walkInLocationName": "Mumbai Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "cell4youe7x1",
@@ -457,7 +604,8 @@
     "mapsUrl": "https://maps.app.goo.gl/fZWCJq1CNLY2MhmJ6",
     "walkInLocationName": "Mumbai Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "repairiphone2s5l9",
@@ -477,7 +625,8 @@
     "mapsUrl": "https://maps.app.goo.gl/vTUWc7FP2KoyAoQy9",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "cafiservicew3q6",
@@ -497,7 +646,8 @@
     "mapsUrl": "https://maps.app.goo.gl/CkJa7YYPZLoBS1HP7",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "repairiphone3i8n4",
@@ -517,7 +667,8 @@
     "mapsUrl": "https://maps.app.goo.gl/Bk5PLM1jc7DdMUeu8",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "appleiserviceo1r7",
@@ -537,7 +688,8 @@
     "mapsUrl": "https://maps.app.goo.gl/k8ydYiNLTFGGy6Q1A",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "ipointservicea6y2",
@@ -557,7 +709,8 @@
     "mapsUrl": "https://maps.app.goo.gl/ibFtBP9WWuFuQVcQ7",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "imountdelhim4f9",
@@ -577,7 +730,8 @@
     "mapsUrl": "https://maps.app.goo.gl/5DJiw3fEXoZVn4sw8",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "icareexpertt7c5",
@@ -597,7 +751,8 @@
     "mapsUrl": "https://maps.app.goo.gl/w6gDAninvFTqgjTv9",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "fixmyphonesaketh2z8",
@@ -617,7 +772,8 @@
     "mapsUrl": "https://maps.app.goo.gl/3VeXCRU2EAmuZebc7",
     "walkInLocationName": "Delhi Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "chandnimobileb9p1",
@@ -637,7 +793,8 @@
     "mapsUrl": "https://maps.app.goo.gl/b1DqGahhgfTtR24z6",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "applemack5w3",
@@ -657,7 +814,8 @@
     "mapsUrl": "https://maps.app.goo.gl/ri2WDtdhcHfD1SJ67",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "icarehubr8d6",
@@ -677,7 +835,8 @@
     "mapsUrl": "https://maps.app.goo.gl/nzyZLzzTPExhJKPP6",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "macapplerepairv1l4",
@@ -697,7 +856,8 @@
     "mapsUrl": "https://maps.app.goo.gl/kEr2TP77VWEWgBbk9",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "applefixprosq7j2",
@@ -717,7 +877,8 @@
     "mapsUrl": "https://maps.app.goo.gl/eQpxZUoRGvemdYdd6",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "hammernn6x9",
@@ -737,7 +898,8 @@
     "mapsUrl": "https://maps.app.goo.gl/GWScbMCbRuNKBMgk6",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "newappleg3m5",
@@ -757,7 +919,8 @@
     "mapsUrl": "https://maps.app.goo.gl/cctSQ83Ey83r3Ay19",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   },
   {
     "id": "premiumastoref8t1",
@@ -777,6 +940,7 @@
     "mapsUrl": "https://maps.app.goo.gl/CELoJNCRmVve8u1q9",
     "walkInLocationName": "Lucknow Center",
     "sameDayAvailable": true,
-    "logoUrl": "/image.png"
+    "logoUrl": "/image.png",
+    "videos": []
   }
 ]

@@ -6,32 +6,7 @@ export default function VideoPlayer() {
   const scrollRef = useRef(null);
   const youtubeChannelUrl = tenant.youtube;
 
-  const videos = [
-    {
-      id: "Qwd7IfguEoE",
-      title: "Apple Watch Glass Replacement | Cracked Screen to Brand New"
-    },
-    {
-      id: "pUOX-ulIUKk",
-      title: "iPad Pro Screen Restoration | Full Digitizer Repair"
-    },
-    {
-      id: "2nytHtwE4Fg",
-      title: "iPhone 15 Pro Max Restoration | Surgical Precision Rebuild"
-    },
-    {
-      id: "h35oheJWFGU",
-      title: "iPhone Motherboard Microsoldering | Repairing Logic Board"
-    },
-    {
-      id: "W_xUfwsBZPI",
-      title: "Apple Watch Series 8 Overhaul | Refurbished Frame & Glass"
-    },
-    {
-      id: "J5bCAqdVqSE",
-      title: "Premium Repair Showcase | Glass Restoration Process"
-    }
-  ];
+  const videos = tenant.videos || [];
 
   const scroll = (direction) => {
     if (scrollRef.current) {

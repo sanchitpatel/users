@@ -18,6 +18,49 @@ function cleanBrandName(name) {
   return cleaned;
 }
 
+const clientVideosMapping = {
+  "thephonea7k2": [
+    { id: "_rdkox1JWbg", title: "iPhone Screen Glass Replacement" },
+    { id: "wx0NVEfHDRA", title: "Premium Display Restoration" },
+    { id: "qpV_DXL28pY", title: "Surgical Motherboard Microsoldering" },
+    { id: "Q_7SKGRcJO4", title: "iPad Touch Screen Refurbishment" },
+    { id: "NZIEmMKH9pk", title: "Apple Watch Glass Restoration" },
+    { id: "J5pLTPYbXbM", title: "iPhone Battery Swap & Diagnostic" }
+  ],
+  "mtrmobilem9q4": [
+    { id: "4NaAfHP63yA", title: "iPhone Broken Screen Restoration" },
+    { id: "XfX_5gcoN_U", title: "Apple iPad Glass Refurbishing" },
+    { id: "ZeEgojTA57s", title: "Watch Series Repair & Touch Fix" },
+    { id: "FQq_LMO-FNA", title: "Motherboard Microsoldering Service" },
+    { id: "jDcjpGkqmBI", title: "High-Quality Back Glass Repair" },
+    { id: "-fHXif1090A", title: "Speaker & Battery Replacements" }
+  ],
+  "bunnypratapt3x8": [
+    { id: "YhwsUUDz9eo", title: "iPhone 15 Pro Max Restoration" },
+    { id: "SE6y-5IxCkQ", title: "Premium Display Glass Repair" },
+    { id: "BgCFXnOHJEQ", title: "iPad Screen & Digitizer Rebuild" },
+    { id: "wySl27uXNPQ", title: "Apple Watch Screen Overlay Fix" },
+    { id: "JBWBNgf-MFs", title: "Microsoldering IC Repair Process" },
+    { id: "rz2F5H1Cb_c", title: "Water Damage Diagnostic & Cleanup" }
+  ],
+  "hussainfixr6p1": [
+    { id: "KUjXNbb84W0", title: "iPhone Screen Refurbishing Process" },
+    { id: "scp0Silyork", title: "Apple Watch Re-Glass Demonstration" },
+    { id: "COlsGDWfVPI", title: "iPad Digitizer & Glass Restoration" },
+    { id: "pKfaEnEAuok", title: "Logic Board Microsoldering IC Fix" },
+    { id: "sB0wG1OjFw0", title: "Back Glass Laser Separation Repair" },
+    { id: "kTfzMIS-pV4", title: "Battery Health Replacement Service" }
+  ],
+  "mobileguruh5z9": [
+    { id: "ePGWg4k0vac", title: "Premium Display Restoration Process" },
+    { id: "LOsstnyVl-Q", title: "Apple Watch Series Touch Refurbish" },
+    { id: "QjMEYOSTnAw", title: "iPad Pro Screen Panel Repair" },
+    { id: "DqwYtdY5DhU", title: "Micro-Soldering Logic Board Fix" },
+    { id: "GqJs6vh-9xk", title: "Rear Glass Damage Repair Showcase" },
+    { id: "eewjl4t8j4w", title: "Same-Day Battery Diagnostic Swap" }
+  ]
+};
+
 function parseCSV(csvText) {
   const lines = [];
   let currentLine = [];
@@ -170,6 +213,7 @@ try {
       walkInLocationName: `${city} Center`,
       sameDayAvailable: true,
       logoUrl: '/image.png',
+      videos: clientVideosMapping[subdomain] || [],
     });
   }
 

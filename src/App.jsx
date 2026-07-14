@@ -109,8 +109,12 @@ export default function App() {
 
         {/* Action, Services, and Reviews */}
         <div className="left-column" style={{ marginTop: 0 }}>
-          <VideoPlayer />
-          <div className="section-divider"></div>
+          {tenant.videos && tenant.videos.length > 0 && (
+            <>
+              <VideoPlayer />
+              <div className="section-divider"></div>
+            </>
+          )}
           <FeaturedServices onOpenBooking={openBooking} />
           <div className="section-divider"></div>
           <TrustReviews />
