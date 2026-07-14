@@ -17,7 +17,13 @@ export default function Header({ onOpenBooking }) {
             className="w-full h-full object-cover"
           />
         </div>
-        <span className="text-slate-800 font-extrabold text-base sm:text-xl tracking-tight select-none">
+        <span className={`text-slate-800 font-extrabold tracking-tight select-none ${
+          tenant.brandName.length > 20
+            ? 'text-xs sm:text-base'
+            : tenant.brandName.length > 15
+            ? 'text-sm sm:text-lg'
+            : 'text-base sm:text-xl'
+        }`}>
           {tenant.brandName}<span className="text-blue-500 text-base sm:text-lg">.</span>
         </span>
       </div>

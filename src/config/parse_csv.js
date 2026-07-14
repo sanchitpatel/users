@@ -4,6 +4,20 @@ import path from 'path';
 const csvFilePath = 'd:\\@work\\applifix\\Book1.csv';
 const jsonOutputPath = 'd:\\@work\\applifix\\src\\config\\tenants.json';
 
+function cleanBrandName(name) {
+  if (!name) return 'Apple Client';
+  let cleaned = name.trim();
+  // If the brand name is completely uppercase, convert it to Title Case for better UI presentation
+  if (cleaned === cleaned.toUpperCase() && /[A-Z]/.test(cleaned)) {
+    cleaned = cleaned
+      .toLowerCase()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+  return cleaned;
+}
+
 function parseCSV(csvText) {
   const lines = [];
   let currentLine = [];
@@ -135,12 +149,12 @@ try {
 
     // Parse email list
     const emails = (entry['Mail '] || entry['Mail'] || '').split(',').map(e => e.trim()).filter(Boolean);
-    const emailDisplay = emails[0] || 'applifyservicecenter@gmail.com';
+    const emailDisplay = emails[0] || 'xyz@gmail.com';
 
     clientData.push({
       id: subdomain,
       hostname: vercelDomain.toLowerCase(),
-      brandName: entry['Name'] || 'APPLIFIX Client',
+      brandName: cleanBrandName(entry['Name']),
       city: city,
       state: state,
       country: 'India',
@@ -149,13 +163,13 @@ try {
       phoneRaw: phoneRaw.startsWith('91') && phoneRaw.length > 10 ? phoneRaw : `91${phoneRaw}`,
       whatsapp: phoneRaw.startsWith('91') && phoneRaw.length > 10 ? phoneRaw : `91${phoneRaw}`, // Default WhatsApp to primary phone number
       email: emailDisplay,
-      instagram: entry['Instagram'] || 'https://www.instagram.com/applifix_india',
-      facebook: 'https://www.facebook.com/61586980768076',
-      youtube: entry['Youtube Account'] || 'https://www.youtube.com/@applify5080',
+      instagram: entry['Instagram'] || 'https://www.instagram.com',
+      facebook: entry['Facebook'] || 'https://www.facebook.com',
+      youtube: entry['Youtube Account'] || 'https://www.youtube.com',
       mapsUrl: entry['Google Maps'] || '',
       walkInLocationName: `${city} Center`,
       sameDayAvailable: true,
-      logoUrl: '/Gemini_Generated_Image_djkdejdjkdejdjkd.png',
+      logoUrl: '/image.png',
     });
   }
 

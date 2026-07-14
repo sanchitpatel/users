@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
+import { useTenant } from '../context/TenantContext';
 
 export default function TrustReviews() {
+  const tenant = useTenant();
   const scrollRef = useRef(null);
   const reviews = [
     {
@@ -98,7 +100,7 @@ export default function TrustReviews() {
               </div>
 
               <p className="review-text">
-                "{review.text}"
+                "{review.text.replace(/Applifix/g, tenant.brandName)}"
               </p>
             </div>
           ))}

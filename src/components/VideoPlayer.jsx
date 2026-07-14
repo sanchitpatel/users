@@ -1,8 +1,10 @@
 import React, { useRef } from 'react';
+import { useTenant } from '../context/TenantContext';
 
 export default function VideoPlayer() {
+  const tenant = useTenant();
   const scrollRef = useRef(null);
-  const youtubeChannelUrl = "https://youtube.com/@applify5080?si=61Jei2eder7yggaa";
+  const youtubeChannelUrl = tenant.youtube;
 
   const videos = [
     {
