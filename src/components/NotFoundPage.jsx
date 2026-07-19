@@ -45,7 +45,7 @@ export default function NotFoundPage() {
 
         {/* Message */}
         <p className="text-sm text-slate-400 leading-relaxed px-2">
-          The requested whitelabel subdomain or domain is not configured on the Applifix network. 
+          The requested whitelabel subdomain or domain is not configured on our network. 
           If you are trying to preview this site, please verify your subdomain mapping configuration or contact support.
         </p>
 
@@ -57,7 +57,7 @@ export default function NotFoundPage() {
 
       {/* Decorative Brand watermark */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-slate-600/30 font-extrabold tracking-widest text-xs uppercase z-0">
-        APPLE FIX NETWORK
+        DEVICE REPAIR NETWORK
       </div>
     </div>
   );

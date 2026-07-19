@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import '../styles/ScrollVideoDemo.css';
+import { useTenant } from '../context/TenantContext';
 
 const ScrollVideoDemo = ({ onOpenBooking }) => {
+  const tenant = useTenant();
   const videoRef = useRef(null);
   const containerRef = useRef(null);
   const [videoSrc, setVideoSrc] = useState('/Cinematic_D_commercial_produ_smooth.mp4');
@@ -196,7 +198,7 @@ const ScrollVideoDemo = ({ onOpenBooking }) => {
               Your browser does not support the video tag.
             </video>
             <div className="applifix-overlay-box">
-              <span>Applifix</span>
+              <span>{tenant?.brandName || 'xyz'}</span>
             </div>
           </div>
           {!isVideoLoaded && (

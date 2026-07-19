@@ -76,6 +76,46 @@ export default function App() {
 
   const tenant = useTenant();
 
+  // Dynamic browser metadata updates for SEO & Tab Branding
+  useEffect(() => {
+    if (!tenant) return;
+
+    // 1. Update document title
+    const brand = tenant.brandName || 'xyz';
+    const city = tenant.city || '';
+    const state = tenant.state || '';
+    const locationStr = city ? ` in ${city}${state ? `, ${state}` : ''}` : '';
+    document.title = `${brand} | Premium Device Repair Service${locationStr}`;
+
+    // Helper to update or insert meta tags dynamically
+    const updateMetaTag = (nameOrProperty, content, isProperty = false) => {
+      const selector = isProperty 
+        ? `meta[property="${nameOrProperty}"]` 
+        : `meta[name="${nameOrProperty}"]`;
+      let el = document.querySelector(selector);
+      if (!el) {
+        el = document.createElement('meta');
+        if (isProperty) {
+          el.setAttribute('property', nameOrProperty);
+        } else {
+          el.setAttribute('name', nameOrProperty);
+        }
+        document.head.appendChild(el);
+      }
+      el.setAttribute('content', content);
+    };
+
+    // 2. Dynamic description
+    const description = `Professional repairs by ${brand} for iPhones, Apple Watches, and smartphones. Same-day screen replacement, battery, and face ID repair with genuine parts and 1-year warranty in ${city}, ${state}.`;
+    updateMetaTag('description', description);
+    updateMetaTag('og:title', `${brand} | Premium Device Repair Service${locationStr}`, true);
+    updateMetaTag('og:description', description, true);
+
+    // 3. Dynamic keywords
+    const keywords = `${brand}, ${brand} repair, phone repair ${city}, iPhone repair ${city}, screen replacement ${city}`;
+    updateMetaTag('keywords', keywords);
+  }, [tenant]);
+
   // If no tenant is matched (unauthorized subdomain or main domain), show the 404 page
   if (!tenant) {
     return <NotFoundPage />;

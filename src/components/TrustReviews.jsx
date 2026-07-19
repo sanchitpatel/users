@@ -100,7 +100,7 @@ export default function TrustReviews() {
               </div>
 
               <p className="review-text">
-                "{review.text.replace(/Applifix/g, tenant.brandName)}"
+                "{review.text.replace(/Applifix/gi, tenant?.brandName || 'xyz')}"
               </p>
             </div>
           ))}
